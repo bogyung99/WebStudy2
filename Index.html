@@ -12,25 +12,21 @@
     <h1>freeCodeCamp Survey Form</h1>
     <P>Thank you for taking the time to help us improve the platform</P>
 
-    <figure>
-        <b>Name</b>
-        <br></br>
+    <form>
+        <b>Name</b><br>
         <input type="text" name = "text" placeholder = "Enter your name">
         <br></br>
 
-        <b>Email</b>
-        <br></br>
+        <b>Email</b><br>
         <input type="email" name = "email" placeholder = "Enter your Email">
         <br></br>
 
         <b>Age</b>
-        <b>(optional)</b>
-        <br></br>
+        <b>(optional)</b><br>
         <input type="number" name = "age" placeholder = "Age">
         <br></br>
 
-        <b>Which option best describes your current role?</b>
-        <br></br>
+        <b>Which option best describes your current role?</b><br>
         <select name = "role1">
             <option selected disabled>Select current role</option>
             <option>Student</option>
@@ -41,17 +37,13 @@
         </select>
         <br></br>
 
-        <b>Would you recommend freeCodeCamp to a friend?</b>
-        <br></br>
-        <input type="radio" name="chk_info1" value="Definitely" checked="checked">Definitely
-        <br></br>
-        <input type="radio" name="chk_info2">Maybe
-        <br></br>
-        <input type="radio" name="chk_info3">Not sure
+        <b>Would you recommend freeCodeCamp to a friend?</b><br>
+        <input type="radio" name="radio_info" value="Definitely" checked="checked">Definitely<br>
+        <input type="radio" name="radio_info" value="Maybe">Maybe<br>
+        <input type="radio" name="radio_info" value="Not sure">Not sure
         <br></br>
 
-        <b>What is your favorite feature of freeCodeCamp?</b>
-        <br></br>
+        <b>What is your favorite feature of freeCodeCamp?</b><br>
         <select name = "role2">
             <option selected disabled>Select an option</option>
             <option>Challenges</option>
@@ -62,34 +54,22 @@
         <br></br>
 
         <b>What would you like to see improved? </b>
-        <b>(Check all that apply)</b>
-        <br></br>
+        <b>(Check all that apply)</b><br>
 
-        <input type="checkbox">Front-end Projects
+        <input type="checkbox" name="chk_info" value="Front-end Projects">Front-end Projects<br>
+        <input type="checkbox" name="chk_info" value="Back-end Projects">Back-end Projects<br>
+        <input type="checkbox" name="chk_info" value="Data Visualization">Data Visualization<br>
+        <input type="checkbox" name="chk_info" value="Challenges">Challenges<br>
+        <input type="checkbox" name="chk_info" value="Open Source Community">Open Source Community<br>
+        <input type="checkbox" name="chk_info" value="Gitter help rooms">Gitter help rooms<br>
+        <input type="checkbox" name="chk_info" value="Videos">Videos<br>
+        <input type="checkbox" name="chk_info" value="City Meetups">City Meetups<br>
+        <input type="checkbox" name="chk_info" value="Wiki">Wiki<br>
+        <input type="checkbox" name="chk_info" value="Forum">Forum<br>
+        <input type="checkbox" name="chk_info" value="Additional Courses">Additional Course
         <br></br>
-        <input type="checkbox">Back-end Projects
-        <br></br>
-        <input type="checkbox">Data Visualization
-        <br></br>
-        <input type="checkbox">Challenges
-        <br></br>
-        <input type="checkbox">Open Source Community
-        <br></br>
-        <input type="checkbox">Gitter help rooms
-        <br></br>
-        <input type="checkbox">Videos
-        <br></br>
-        <input type="checkbox">City Meetups
-        <br></br>
-        <input type="checkbox">Wiki
-        <br></br>
-        <input type="checkbox">Forum
-        <br></br>
-        <input type="checkbox">Additional Courses
-        <br></br>
-
-        <b>Any comments or suggestions?</b>
-        <br></br>
+        
+        <b>Any comments or suggestions?</b><br>
         <textarea rows="5" cols="30" name="contents" placeholder = "Enter your comment here..."></textarea>
-    </figure>
+    </form>
 </main>
