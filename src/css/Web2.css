@@ -78,8 +78,27 @@ button {
     height: 50px;
     border-radius: 5px;
     background-color: #37AF65;
+    font-size: 17px;
 }
 
 #option {
     font-size: 15px;
 }
+
+input[type=radio] {
+    width: 20px;
+    height: 2em;
+    vertical-align: middle;
+    margin-right: 9px;
+    margin-top: 6px;
+}
+
+input[type=checkbox] {
+    width: 20px;
+    height: 2em;
+    vertical-align: middle;
+    margin-right: 9px;
+    margin-top: 6px;
+}
+
+label{vertical-align:-4px}
