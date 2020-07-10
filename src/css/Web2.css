@@ -39,12 +39,12 @@ b {
     padding: 45px 45px 60px 45px;
     font-size: 18px;
     background-color: rgba(42, 42, 73, 0.9);
-    margin-left: 400px;
-    margin-right: 400px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 #text_box {
-    width: 100%;
+    width: 97%;
     height: 38px;
     border-radius: 5px;
     padding-left: .8em;
@@ -52,15 +52,15 @@ b {
 }
 
 #select_box {
-    width: 101%;
-    height: 38px;
+    width: 100%;
+    height: 40px;
     border-radius: 5px;
     padding-left: .7em;
     margin-top: 8px;
 }
 
 #textarea {
-    width: 100%;
+    width: 97%;
     height: 110px;
     padding-left: .8em;
     padding-top: .6em;
@@ -74,7 +74,7 @@ b {
 
 button {
     color: white;
-    width: 101%;
+    width: 100%;
     height: 50px;
     border-radius: 5px;
     background-color: #37AF65;
@@ -102,3 +102,15 @@ input[type=checkbox] {
 }
 
 label{vertical-align:-4px}
+
+@media (min-width: 576px) {
+    #form_box{
+      max-width: 600px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    #form_box {
+      max-width: 720px;
+    }
+  }
